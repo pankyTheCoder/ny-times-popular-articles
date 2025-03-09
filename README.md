@@ -48,7 +48,7 @@ A React application that displays the most popular articles from The New York Ti
    yarn dev
    ```
 
-4. Open your browser and navigate to `http://localhost:8080`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ## Available Scripts
 
@@ -100,10 +100,8 @@ npm run cypress:run
   - `/pages` - Page components
   - `/services` - API service functions
   - `/store` - State management with Zustand
-  - `/hooks` - Custom React hooks
   - `/lib` - Utility functions and helpers
 - `/cypress` - Cypress E2E tests
-- `/public` - Static assets
 
 ## Code Quality and Best Practices
 
