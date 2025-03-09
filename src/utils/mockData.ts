@@ -1,0 +1,75 @@
+import { ArticleType } from "@/services/nytimes";
+
+export const mockArticle: ArticleType = {
+    id: 123456,
+    url: 'https://www.nytimes.com/test-article',
+    published_date: '2023-01-01',
+    updated: '2023-01-02',
+    title: 'Test Article Title',
+    abstract: 'This is a test article abstract',
+    byline: 'By Test Author',
+    section: 'Technology',
+    subsection: 'Software',
+    media: [
+      {
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Test Caption',
+        copyright: 'Test Copyright',
+        approved_for_syndication: 1,
+        'media-metadata': [
+          {
+            url: 'https://example.com/image.jpg',
+            format: 'Standard Thumbnail',
+            height: 75,
+            width: 75,
+          },
+          {
+            url: 'https://example.com/image-large.jpg',
+            format: 'mediumThreeByTwo440',
+            height: 293,
+            width: 440,
+          },
+        ],
+      },
+    ],
+    des_facet: ['Test Facet'],
+    org_facet: [],
+    per_facet: [],
+    geo_facet: [],
+  };
+
+  export const mockArticles: ArticleType[] = [
+    {
+      id: 1001,
+      url: 'https://www.nytimes.com/article1',
+      published_date: '2023-01-01',
+      updated: '2023-01-02',
+      title: 'First Test Article',
+      abstract: 'This is the first test article',
+      byline: 'By Author One',
+      section: 'Tech',
+      subsection: '',
+      media: [],
+      des_facet: [],
+      org_facet: [],
+      per_facet: [],
+      geo_facet: [],
+    },
+    {
+      id: 1002,
+      url: 'https://www.nytimes.com/article2',
+      published_date: '2023-01-03',
+      updated: '2023-01-04',
+      title: 'Second Test Article',
+      abstract: 'This is the second test article',
+      byline: 'By Author Two',
+      section: 'Science',
+      subsection: '',
+      media: [],
+      des_facet: [],
+      org_facet: [],
+      per_facet: [],
+      geo_facet: [],
+    },
+  ];
